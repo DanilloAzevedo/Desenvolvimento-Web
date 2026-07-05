@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(22, 16, 44);
+    font-family: "Arial";
+}
+#profile{
+    height: 100px;
+    width: 100px;
+    border: solid 2px #ba8a8a;
+    border-radius: 50%;
+    background-image: url("SHAPE.avif");
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 15px;
+}
+#username{
+    color: #def3ea;
+    text-align: center;
+}
+.buttonlist{
+    background-color: #d7efe3;
+    border-radius: 50px;
+    font-size: 16px;
+    text-align: center;
+    padding: 18px;
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+}
+.buttonlist:hover{
+    background-color:rgb(60, 38, 59);
+    color:rgb(208, 234, 224);
+    cursor: pointer;
+    animation: fadeIn 0.7s ease-out;
+    -webkit-animation:fadeIn 0.7s ease-out;
+}
+.network-icon{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+}
